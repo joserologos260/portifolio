@@ -1,6 +1,5 @@
-
 :root {
-   
+
     --grafite: #2b2b2b;
     --kraft: #d7c9b7;
     --laranja: #d35400;
@@ -18,14 +17,14 @@
     text-transform: capitalize;
     transition: 0.2s linear;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
 
 
 
 body {
-    
-    background-color: var(--laranja);
+
+    background-color: var(--branco);
 }
 
 
@@ -35,7 +34,7 @@ section {
     margin: 0 auto;
     max-width: 1200px;
 }
-  
+
 
 .header {
     position: fixed;
@@ -44,7 +43,7 @@ section {
     right: 0;
     z-index: 99;
     border-bottom: var(--border);
-    background-color: var(--kraft); 
+    background-color: var(--kraft);
 
 }
 
@@ -53,7 +52,7 @@ section {
 .header section {
 
     display: flex;
-    align-items: center;    
+    align-items: center;
     justify-content: space-between;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -76,14 +75,14 @@ section {
 
 
 .content-padding {
-    padding-top: 12rem; 
+    padding-top: 12rem;
     color: var(--branco);
-    text-align: center; 
+    text-align: center;
 }
 
 .content-padding a {
     color: var(--kraft);
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 
 .icons img {
